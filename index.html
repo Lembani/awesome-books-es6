@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>
+        <nav>
+           <a href="#" class="logo">Awesome Books</a>
+            <ul class="nav-list">
+                <li><a href="#bookList" id="bookListLink">List</a></li>
+                <li><a href="#addBook" id="addBookLink">Add New</a></li>
+                <li><a href="#contact" id="contactLink">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="date-time"></div>
+        <section class="book-list" id="bookList">
+            <h1>All awesome books</h1>
+            <div class="booksContainer"></div>
+        </section>
+        <section class="add-book" id="addBook">
+            <form action="#" name="bookForm" method="post">
+                <h2>Add a new book</h2>
+                <input type="text" name="title" size="30" id="bookTitle" placeholder="Title" required>
+                <input type="text" name="author" size="30" id="bookAuthor" placeholder="Author" required>
+                <button type="submit" class="add-btn" id="addBtn">Add</button>
+            </form>
+        </section>
+        <section class="contact" id="contact">
+            <h2>Contact Information</h2>
+            <p>Do you have any questions or you just want to say "Hello"?</p>
+            <p>You can reach out to us!</p>
+            <ul class="contact-items">
+                <li>Our email: mail@mail.com</li>
+                <li>Our phone number: 0043586534422</li>
+                <li>Our address: Street name 22, 84503 City, Country</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        Copyright &copy; 2022
+    </footer>
+
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
